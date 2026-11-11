@@ -1,0 +1,67 @@
+# Terraform files
+**/.terraform/
+**/.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan files
+*.tfplan
+*.tfplan.json
+
+# Terraform variable files that may contain secrets
+*.auto.tfvars
+# Uncomment the line below if you add VM credentials to terraform.tfvars
+# terraform.tfvars
+
+# Sensitive variable files
+secrets.tfvars
+*.secret.tfvars
+
+# Azure credentials / service principal files
+*.json
+!**/schema.json
+azure_credentials.json
+sp_credentials.json
+
+# SSH keys
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# PowerShell transcripts
+*_transcript_*.txt
